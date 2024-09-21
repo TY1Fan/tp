@@ -1,6 +1,7 @@
 package seedu.address.logic.commands;
 
 import static seedu.address.logic.commands.CommandTestUtil.assertCommandFailure;
+import static seedu.address.logic.commands.RemarkCommand.MESSAGE_NOT_IMPLEMENTED_YET;
 import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -16,7 +17,6 @@ import seedu.address.model.UserPrefs;
 public class RemarkCommandTest {
 
     private Model model;
-    private final String MESSAGE_NOT_IMPLEMENTED_YET = "Not implemented yet!";
 
     @BeforeEach
     public void setUp() {
